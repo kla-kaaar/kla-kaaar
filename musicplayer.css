@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+
+}
+header{
+    background-color: #270082;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+   color: white;
+   
+}
+.menu ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+.menu ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+
+.container2
+{
+    background-image: url(image.png);
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+    /* To do the background image in center */
+    background-size: cover;
+    /* whole image will shown */
+    background-repeat: no-repeat;
+    color: white;
+    display: grid;
+    place-items: center;
+
+}
+ .text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    max-width: 700px;
+}
+.text h1{
+    font-weight: 700;
+    font-size: 72px;
+}
+.text p{
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+.container3{
+  padding-top: 50px; 
+  background: #281154;
+    
+}
+.music-text{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+ 
+.tab-phone{
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+}
+.trial-button{
+    padding: 10px 7px;
+    background-color: #DC0000;
+    color: white;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.trial-button:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #840505;
+    cursor: pointer;
+}
+.container4{
+
+    padding-top: 500px;
+    background: #F9F6FF;
+    padding-bottom: 50px;
+
+}
+.read-text{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.read-more-button{
+    padding: 10px 7px;
+    background-color: #37008E;
+    color: white;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+}
+.container5{
+    
+    background-image: url(image2.png);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+   place-items:center;
+   color: white;
+   text-align: center;
+  
+   
+}
+.video-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -300px;
+    max-width: 800px;
+    margin: 0 auto;
+
+    
+}
+.container6{
+    padding: 70px 0;
+    background-color: #F9F6FF;
+    
+    
+}
+.giftcard{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+.giftcard-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+
+    max-width: 600px;
+}
+.giftcard-text p{
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-size: 14px;
+}
+.button-reedem{
+    padding: 10px 12px;
+    background-color: #37008E;
+    color: white;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.button-reedem:hover{
+    background-color: #281154;
+    transition: 0.2s ease-in-out;
+
+}
+footer{
+    background-color: #1B0058;
+}
+.container7{
+    padding-top: 50px  ;
+    padding-bottom: 50px;
+    
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .foot-text h4{
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+   
+ }
+ .foot-text ul li{
+list-style: none;
+font-size: 12px;
+line-height:20px;
+ }
+ .credit{
+    background-color: #281154;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+ }
+ 
